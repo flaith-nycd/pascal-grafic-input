@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 571
+  Height = 316
+  Top = 469
+  Width = 509
+  Caption = 'Form1'
+  ClientHeight = 316
+  ClientWidth = 509
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object Bevel1: TBevel
+    Left = 7
+    Height = 33
+    Top = 56
+    Width = 376
+  end
+  object LabelSaisie: TLabel
+    Left = 16
+    Height = 17
+    Top = 64
+    Width = 361
+    AutoSize = False
+    Caption = 'LabelSaisie'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 41
+    Top = 8
+    Width = 145
+    AutoSize = False
+    Caption = 'Appuyez sur touche ''ESC'' '#13#10'ou '#13#10'tapez ''QUIT'' pour Quitter'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 17
+    Top = 120
+    Width = 369
+    AutoSize = False
+    Caption = 'Label3'
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Label4: TLabel
+    Left = 10
+    Height = 13
+    Top = 63
+    Width = 6
+    Caption = '>'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 13
+    Top = 104
+    Width = 89
+    AutoSize = False
+    Caption = 'Résultat (texte) :'
+    ParentColor = False
+  end
+  object ImageSaisie: TImage
+    Left = 8
+    Height = 25
+    Top = 256
+    Width = 377
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 13
+    Top = 152
+    Width = 105
+    AutoSize = False
+    Caption = 'Résultat (graphique) :'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 240
+    Height = 41
+    Top = 8
+    Width = 145
+    AutoSize = False
+    Caption = 'Label7'
+    ParentColor = False
+  end
+  object ImageDescription: TImage
+    Left = 8
+    Height = 81
+    Top = 168
+    Width = 377
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    left = 160
+  end
+end
