@@ -7,7 +7,7 @@ Got an old Delphi 6 program, cleand and compiled it with Lazarus.
 ![Screenshot](https://github.com/flaith-nycd/pascal-grafic-input/blob/master/Screenshot_01.png)
 
 > __ __
-> The font file have been created with another pascal program I made, called [Fontmaker](https://github.com/flaith-nycd/pascal-fontmaker)
+> The font file has been created with another pascal program I made, called [Fontmaker](https://github.com/flaith-nycd/pascal-fontmaker)
 > __ __
 
 `In the zip file, you'll find the project and the executable`
